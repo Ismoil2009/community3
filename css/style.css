@@ -73,3 +73,6 @@ button {
 .navbar .nav-link:hover::after {
   width: 100%;
 }
+.navbar .offcanvas {
+  background-color: #232536;
+}
