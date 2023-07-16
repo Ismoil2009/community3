@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  cursor: none !important;
 }
 
 *,
@@ -40,14 +39,6 @@ button {
 .navbar {
   background-color: #232536;
   box-shadow: 2px 5px 50px -10px black;
-}
-.navbar.shrink {
-  height: 80px !important;
-  transition: height 0.3s linear;
-  -webkit-transition: height 0.3s linear;
-  -moz-transition: height 0.3s linear;
-  -ms-transition: height 0.3s linear;
-  -o-transition: height 0.3s linear;
 }
 .navbar .nav-link {
   position: relative;
