@@ -19,7 +19,9 @@ ul,li,a{
 .logo {
   content: url(../assets/Logo.svg);
 }
-
+.navbar-toggler-icon {
+  background-image: url(../assets/menu.svg) !important;
+}
 
 .nav-link {
   position: relative;
@@ -112,10 +114,16 @@ ul,li,a{
   right: 0px;
 }
 
+
 @media (max-width: 992px){
   .footer-top-input input{
     width: 100%;
   }
+}
+@media(max-width: 768px){
+.offcanvas-body, .offcanvas-header{
+  background-color: black !important;
+}
 }
 @media (max-width: 642px){
   .footer-top-input input{
