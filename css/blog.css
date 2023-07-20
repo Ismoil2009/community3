@@ -67,3 +67,185 @@ button {
 .navbar .offcanvas {
   background-color: #232536;
 }
+
+main {
+  margin-top: 200px;
+}
+
+.figma__hero-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.figma__hero-title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.figma__hero-description {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.figma__hero-link {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.figma__hero-author-name {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.figma__hero-author-name::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url("./icons/Image (60).jpg");
+  vertical-align: middle;
+}
+
+.figma__hero-author-date {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  vertical-align: middle;
+  color: rgb(35, 37, 54);
+}
+
+.figma__related-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.figma__related-author::before {
+  content: "";
+  margin-top: 15px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url("/icons/Image (57).jpg");
+  vertical-align: middle;
+}
+
+.figma__related-author {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.figma__related {
+  background: rgb(255, 223, 198);
+}
+
+/* ==== */
+.post__title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.post__author {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.post__author::before {
+  content: "";
+  margin-top: 15px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url("/icons/Image (55).jpg");
+  vertical-align: middle;
+}
+
+.post__titles {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card {
+  padding: 0 !important;
+}
+
+/* ==== */
+.all {
+  background: rgb(249, 249, 249);
+}
+
+.all__card-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.all__card-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.all__author::before {
+  content: "";
+  margin-top: 15px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url("/icons/Image (55).jpg");
+  vertical-align: middle;
+}
