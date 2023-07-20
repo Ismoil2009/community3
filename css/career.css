@@ -242,6 +242,9 @@ button {
   width: 50%;
 }
 
+.team {
+  min-height: 120vh;
+}
 .team__h5 {
   color: #000;
   font-size: 14px;
