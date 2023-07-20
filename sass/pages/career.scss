@@ -7,3 +7,34 @@
 @use "../layout/footer";
 @use "../layout/header";
 @use "../layout/loader";
+
+.company {
+  font-family: "Poppins";
+  margin-top: 20px;
+  min-height: 115vh;
+  &__h4 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  &__h1 {
+    width: 50%;
+    color: #232536;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  &__p {
+    width: 55%;
+    color: #232536;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+  div {
+    margin-top: 20px;
+    @include var.df(space-between, center, row);
+  }
+}
+

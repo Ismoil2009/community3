@@ -67,3 +67,36 @@ button {
 .navbar .offcanvas {
   background-color: #232536;
 }
+
+.company {
+  font-family: "Poppins";
+  margin-top: 20px;
+  min-height: 115vh;
+}
+.company__h4 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.company__h1 {
+  width: 50%;
+  color: #232536;
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.company__p {
+  width: 55%;
+  color: #232536;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.company div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
