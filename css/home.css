@@ -111,3 +111,27 @@ ul,li,a{
   top: 0;
   right: 0px;
 }
+
+@media (max-width: 992px){
+  .footer-top-input input{
+    width: 100%;
+  }
+}
+@media (max-width: 642px){
+  .footer-top-input input{
+    width: 320px;
+  }
+  .akBlog-wrap{
+   flex-direction: column;
+  }
+  .akBlog-wrap img{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .akBlog-item{
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+  }
+ 
+}
