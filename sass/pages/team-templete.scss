@@ -6,3 +6,66 @@
 @use "../layout/footer";
 @use "../layout/header";
 @use "../layout/loader";
+
+.template__image {
+  width: 300px;
+  height: 300px;
+}
+
+.template__title {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.template__subtitle {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.template__description {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.blog {
+  background: rgba(236, 248, 249, 1);
+}
+
+.blog__card {
+  padding: 0 !important;
+}
+
+.color {
+  padding: 8px 8px;
+  background: rgba(102, 109, 255, 1);
+}
+
+.text-body-secondary {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.card-title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}

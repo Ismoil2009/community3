@@ -67,3 +67,86 @@ button {
 .navbar .offcanvas {
   background-color: #232536;
 }
+
+.contact__form-title {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.contact__form-heading {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-align: left;
+}
+
+.contact__form-submit {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.form-label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+.input-group-text {
+  border: none !important;
+  border-bottom: 1px solid #333 !important;
+  background-color: transparent !important;
+}
+
+.contact__info {
+  padding: 50px 70px !important;
+  background: rgb(102, 109, 255);
+}
+
+.contact__info-subtitle {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+.contact__info-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+.contact__form-submit::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  -o-border-image: url("./img/right.svg");
+     border-image: url("./img/right.svg");
+}
