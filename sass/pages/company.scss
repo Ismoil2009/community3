@@ -7,3 +7,118 @@
 @use "../layout/footer";
 @use "../layout/header";
 @use "../layout/loader";
+
+.finsweet {
+  text-align: center;
+  min-height: 70vh;
+  margin-top: 170px;
+  &__h5 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  &__h2 {
+    color: #232536;
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  &__p {
+    // width: 55%;
+    color: #232536;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 400;
+  }
+}
+
+.positions {
+  min-height: 110vh;
+  &__h5 {
+    color: #232536;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  &__p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__row {
+    @include var.df(space-between, center, row);
+    background: #ecf8f9;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: 80vh;
+    border: 10px solid #ecf8f9;
+    width: 100%;
+    &-card {
+      width: 30%;
+      background-color: #fff;
+      padding: 10px;
+      &-h4 {
+        color: #232536;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      &-p {
+        color: #232536;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.culture {
+  //   width: 55%;
+  min-height: 100vh;
+  &__h5 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  &__h2 {
+    color: #232536;
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  &__p {
+    color: #232536;
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 400;
+  }
+  &__row {
+    @include var.df(space-between, center, row);
+    flex-wrap: wrap;
+    &-card {
+      margin-bottom: 30px;
+      width: 47%;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fafacf;
+      &-h3 {
+        color: #232536;
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+      &-p {
+        color: #232536;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+      }
+    }
+  }
+}
